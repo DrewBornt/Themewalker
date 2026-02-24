@@ -1,0 +1,19 @@
+[package]
+name = "themewalker"
+version = "0.1.0"
+edition = "2021"
+description = "A TUI for changing SDDM display manager themes"
+license = "MIT"
+
+[[bin]]
+name = "themewalker"
+path = "src/main.rs"
+
+[dependencies]
+ratatui   = "0.29"
+crossterm = "0.28"
+anyhow    = "1"
+thiserror = "2"
+
+[dev-dependencies]
+tempfile = "3"
