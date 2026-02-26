@@ -72,7 +72,7 @@ To **build from source** you also need:
 
 ## Installation
 
-### Pre-built binary
+### Pre-built binary (TO-DO)
 
 Download the archive for your architecture from the [Releases](../../releases/latest) page.
 
@@ -223,7 +223,7 @@ The project is structured as five modules:
 | `src/ui.rs` | ratatui draw functions and layout |
 | `src/main.rs` | Terminal setup, event loop, post-TUI apply |
 
-**Releases** are published automatically by the GitHub Actions workflow in `.github/workflows/release.yml` when a version tag is pushed:
+**Releases** are published automatically by the GitHub Actions workflow in `.github/workflows/release.yml` when a version tag is pushed (TODO):
 
 ```bash
 git tag v1.0.0
